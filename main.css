@@ -86,3 +86,17 @@ input {
     width: 400px;
     outline: none;
 }
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 25px 7px 10px 7px;
+    border-style: none;
+    padding: 10px 15px 10px 15px;
+}
+button:hover {
+    cursor: pointer;
+}
