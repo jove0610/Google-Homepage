@@ -1,4 +1,7 @@
 .navbar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
     display: flex;
     justify-content: flex-end;
 }
@@ -18,9 +21,68 @@ a:hover {
     align-items: center;
 }
 
+.apps-icon {
+    height: 25px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+.apps-icon:hover {
+    background-color: lightgray;
+}
+
 .idPic {
     height: 35px;
     border-style: solid;
     border-radius: 50%;
     margin-right: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sbar-box {
+    display: flex;
+    justify-content: center;
+    border-color:lightgray;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    width: fit-content;
+    height: 30px;
+    width: 450px;
+}
+
+.search-logo {
+    height: 15px;
+}
+
+.voice-logo {
+    height: 15px;
+}
+
+.sbox-1, .sbox-2, .sbox-3 {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    border: none;
+    width: 400px;
+    outline: none;
 }
