@@ -1,6 +1,1 @@
-This repository is the first project of The Odin Project.
-
-It is the homepage of Google. It's purpose if to just imitate the appearance of Google Homepage. All links leads to nowhere. Clicking my picture will send you to the project's repository page on github.
-
-Note:
-I couldn't do the part where the search bar will have border whenever you hover it.
+This is a copy of Google Homepage. This is mainly done to practice my knowledge and undestanding with HTML and CSS. All links are blank as the main purpose of this project is to copy the layout of Google Homepage.

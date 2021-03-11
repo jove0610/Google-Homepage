@@ -1,52 +1,71 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A copy of google homepage. All links lead to nowhere. For entertainment purpose only">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />   
+    <link rel="stylesheet" href="./main.css">
+    <title>Google</title>
+</head>
+<body>
+    <main>
+        <nav id="nav-top">
+            <ul>
+                <li><a href="#" class="email">Gmail</a></li>
+                <li><a href="#" class="images">Images</a></li>
+                <li><a href="#" class="app-icon"><i class="fas fa-bars"></i></a></li>
+                <li><a href="#" class="user-icon"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+
         <header>
-            <title>Google</title>
+            <img id="google-logo"src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
         </header>
-        <link href="reset.css" rel="stylesheet" type="text/css" />
-        <link href="main.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <navbar class="navbar">
-            <div class="navbox-1">
-                <a href="#"><p>Gmail</p></a>
-            </div>
-            <div class="navbox-2">
-                <a href="#"><p>Images</p></a>
-            </div>
-            <div class="navbox-3">
-                <a href="#"><img class="apps-icon" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png"></a>
-            </div>
-            <div class="navbox-4">
-                <a href="https://github.com/jove0610/Google-Homepage" target="_blank">
-                <img class="idPic" src="https://avatars.githubusercontent.com/u/39666463?s=460&u=721ad306059984a73d671fa5378337f4470f7f6e&v=4"
-                > </a>
-            </div>
-        </navbar>
-        
-        <main class="main">
-            <div class="slogo-box">
-                <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-            </div>
-            <div class="sbar-box">
-                <div class="sbox-1">
-                    <img class="search-logo" src="https://cdn3.iconfinder.com/data/icons/instagram-18/512/194_Instagram_Search_Sets-512.png">
+
+        <section id="form">
+            <form>
+                <div class="input-container">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                    <input type="text" name="search" id="search">
+                    <a href="#"><i class="fas fa-microphone"></i></a>
                 </div>
-                <div class="sbox-2">                        
-                    <input type="text" required>
+                
+                <div class="btn-container">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" value="I'm Feeling Lucky">
                 </div>
-                <div class="sbox-3">
-                    <a href="#">
-                        <img class="voice-logo" src="https://blog.expertrec.com/wp-content/uploads/2019/06/Google-Voice.jpg">
-                    </a>       
-                </div>
-            </div>    
-            <div class="buttons">
-                <button type="submit">Google Search</button>
-                <button type="submit">I'm Feeling Lucky</button>
+            </form>
+        </section>
+
+        <section id="language">
+            <p>Google offered in: &nbsp; 
+                <a href="#">Filipino</a>&nbsp; 
+                <a href="#">Cebuano</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class="country">
+            <p>Philippines</p>
+        </div>
+        <nav id="nav-bottom">
+            <div class="container-1">
+                <a href="#">About</a>
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#">How Search Works</a>
             </div>
-        </main>
-        
-    </body>
+            <div class="container-2">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+            </div>
+        </nav>
+    </footer>
+
+
+</body>
 </html>
